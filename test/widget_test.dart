@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(const KosFinderApp());
 
     expect(find.text('KosFinder Mini'), findsOneWidget);
-    expect(find.text('Melati'), findsOneWidget);
+    expect(find.text('Kos Melati'), findsOneWidget);
     expect(find.text('Lokasi: Singaraja'), findsOneWidget);
     expect(find.text('Rp 850.000 / bulan'), findsOneWidget);
   });
